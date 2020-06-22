@@ -1,0 +1,38 @@
+{
+  "name": "chrome-manifest-sync-webpack-plugin",
+  "version": "0.0.0",
+  "description": "Webpack plugin to keep extension's manifest file in sync with package.json",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No test specified\""
+  },
+  "keywords": [
+    "chrome",
+    "manifest",
+    "plugin",
+    "webpack"
+  ],
+  "author": {
+    "name": "Dmytro Chekaliuk",
+    "email": "d.chekaliuk@invisilabs.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazyhammer/chrome-manifest-sync-webpack-plugin.git"
+  },
+  "homepage": "https://github.com/lazyhammer/chrome-manifest-sync-webpack-plugin",
+  "devDependencies": {
+    "@types/loader-utils": "^2.0.1",
+    "@types/node": "^12.7.2",
+    "@types/webpack": "^4.41.17",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "loader-utils": "^2.0.0"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  }
+}
