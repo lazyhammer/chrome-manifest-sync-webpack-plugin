@@ -1,6 +1,6 @@
 {
   "name": "chrome-manifest-sync-webpack-plugin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Webpack plugin to keep extension's manifest file in sync with package.json",
   "main": "dist/index.js",
   "scripts": {
