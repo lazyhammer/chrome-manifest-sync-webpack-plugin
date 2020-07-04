@@ -26,7 +26,7 @@ Webpack plugin to keep extension's manifest file in sync with `package.json`.
 ## Webpack configuration
 
 ```javascript
-const ChromeManifestSyncWebpackPlugin = require('chrome-manifest-sync-webpack-plugin');
+const { ChromeManifestSyncWebpackPlugin } = require('chrome-manifest-sync-webpack-plugin');
 
 module.exports = {
     // ...
